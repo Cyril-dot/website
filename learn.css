@@ -1,0 +1,128 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 50%;
+    /* reduced image width */
+    height: 50%;
+    /* reduced image height */
+    object-fit: cover;
+    /* maintain aspect ratio */
+    border-radius: 50%;
+    /* make image circular */
+    margin: 20px;
+    /* added margin for better spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* added subtle shadow */
+    border: 1px solid #ddd;
+    /* added border for better definition */
+    display: block;
+    /* make image a block element */
+    margin: 0 auto;
+    /* center image horizontally */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style: decimal;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+
+/* Header Styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* Section Styles */
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

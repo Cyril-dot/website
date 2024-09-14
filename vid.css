@@ -1,0 +1,120 @@
+/* Add some basic styling to the body */
+
+
+/* Add some basic styling to the body */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    box-sizing: border-box;
+    /* Add border-box sizing */
+}
+
+
+/* Add a border box to the page */
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* Add a rounded corner */
+    overflow: hidden;
+    /* Add overflow hidden to prevent content from overflowing */
+}
+
+
+/* Add some styling to the article elements */
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Add some styling to the images */
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Add some styling to the audio and video elements */
+
+audio {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    height: 500px;
+    /* Increased the height to 500px */
+    margin-bottom: 20px;
+}
+
+
+/* Add some styling to the headings */
+
+h1,
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+/* Add some styling to the paragraphs */
+
+p {
+    margin-bottom: 20px;
+}
+
+
+/* Add some additional styling to make the website look more professional */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #e6bebe;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(153, 140, 140, 0.1);
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Add some spacing between elements */
+
+article:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+h1+p,
+h2+p {
+    margin-top: 0;
+}
